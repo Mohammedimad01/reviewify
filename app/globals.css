@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0b0f;
+  --color-panel: #12141b;
+  --color-panel-2: #181b24;
+  --color-line: #262a36;
+  --color-muted: #8b91a3;
+  --color-fg: #e8eaf0;
+  --color-accent: #7c9cff;
+  --color-good: #4ade80;
+  --color-warn: #fbbf24;
+  --color-bad: #f87171;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html { color-scheme: dark; }
+body { background: var(--color-bg); color: var(--color-fg); -webkit-font-smoothing: antialiased; }
+
+.card { @apply rounded-2xl border border-line bg-panel p-5; }
+.label { @apply mb-1.5 block text-sm font-medium text-muted; }
+.input { @apply w-full rounded-xl border border-line bg-panel-2 px-3.5 py-2.5 text-sm text-fg outline-none placeholder:text-muted/60 focus:border-accent; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50; }
+.btn-primary { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 bg-accent text-black hover:brightness-110; }
+.btn-ghost { @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50 border border-line bg-panel-2 text-fg hover:border-muted; }
+.chip { @apply rounded-lg border border-line bg-panel-2 px-3 py-1.5 text-sm text-muted transition hover:text-fg; }
+.chip-on { @apply border-accent bg-accent/15 text-fg; }
+
+@keyframes bar { 0%,100% { transform: scaleY(0.3) } 50% { transform: scaleY(1) } }
+.eq span { animation: bar 0.9s ease-in-out infinite; transform-origin: bottom; }
+.eq span:nth-child(2) { animation-delay: .15s } .eq span:nth-child(3) { animation-delay: .3s }
+.eq span:nth-child(4) { animation-delay: .45s } .eq span:nth-child(5) { animation-delay: .6s }
+@keyframes pulse-ring { 0% { transform: scale(.9); opacity: .7 } 100% { transform: scale(1.6); opacity: 0 } }
+.ring-pulse::before { content: ""; position: absolute; inset: 0; border-radius: 9999px; background: currentColor; animation: pulse-ring 1.4s ease-out infinite; }

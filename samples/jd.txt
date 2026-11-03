@@ -1,0 +1,20 @@
+Business Analyst — Growth & Insights (Junior)
+Company: ShopLane (e-commerce marketplace), Bengaluru
+
+About the role
+We're looking for a Business Analyst to partner with our Growth and Category teams. You'll own reporting for key funnel metrics, run deep-dive analyses, and translate business questions into data-driven recommendations.
+
+Responsibilities
+- Build and maintain dashboards (Power BI) tracking conversion funnel, retention and GMV.
+- Write complex SQL (joins, window functions, CTEs) against our Snowflake warehouse.
+- Run root-cause analyses when metrics move and present findings to senior stakeholders.
+- Design and analyse A/B tests with the product team.
+- Gather requirements and write clear documentation for new reports.
+
+Requirements
+- 0–2 years of experience in an analytics or BA role.
+- Strong SQL and Excel; Power BI or Tableau experience.
+- Understanding of e-commerce metrics (conversion, AOV, retention, cohort analysis).
+- Basic statistics and A/B testing knowledge.
+- Excellent communication; able to structure ambiguous problems.
+- Nice to have: Python, Snowflake, experience with experimentation platforms.

@@ -1,0 +1,26 @@
+Priya Sharma
+priya.sharma@example.com | Pune, India | linkedin.com/in/priyasharma
+
+SUMMARY
+Business analyst with 1.5 years of experience turning sales and operations data into decisions. Skilled in SQL, Excel and Power BI.
+
+EXPERIENCE
+Business Analyst — Nimbus Retail Pvt Ltd, Pune (Jul 2024 – Present)
+- Built a Power BI sales dashboard used by 25 regional managers, reducing weekly reporting time by 40%.
+- Wrote SQL queries (PostgreSQL) to analyse 2M+ transactions and identified a pricing leak worth ₹18 lakh per quarter.
+- Gathered requirements from category managers and wrote BRDs for a new inventory replenishment report.
+- Automated a monthly Excel reconciliation with Power Query, cutting a 2-day task to 3 hours.
+
+Analytics Intern — FinEdge Solutions (Jan 2024 – Jun 2024)
+- Cleaned and analysed customer churn data in Python (pandas); presented findings to the product team.
+- Created Excel pivot-table reports for the collections team.
+
+PROJECTS
+- Customer Segmentation (Python, scikit-learn): K-means clustering on 50k e-commerce customers; proposed 4 segments for targeted campaigns.
+- Airline Delay Analysis (SQL, Tableau): analysed 1 year of flight data to find top delay drivers.
+
+EDUCATION
+B.Tech, Computer Engineering — Savitribai Phule Pune University, 2024 (CGPA 8.1)
+
+SKILLS
+SQL (PostgreSQL, MySQL), Excel (Power Query, pivot tables, XLOOKUP), Power BI (DAX basics), Python (pandas, matplotlib), Tableau, JIRA, stakeholder communication
